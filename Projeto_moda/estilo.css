@@ -1,0 +1,110 @@
+html{
+    font-family:  "Viaoda Libre", serif;
+    font-size: 62.5%;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.hero-top{
+    display: flex;
+    background-color: #162028;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-top h1{
+    margin-left: 9rem;
+    letter-spacing: 2px;
+    color:white;
+    font-size: 2rem;
+}
+
+.hero-top ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    gap: 16px;
+    font-size: 1rem;
+    margin-right: 9rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.hero-top a{
+    text-decoration: none;
+    color: #425564;
+}
+
+.hero-img img{
+    width: 100%;
+}
+
+.main-text h2{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.main-text p{
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 2rem;
+
+}
+
+.main-imgs{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.main-imgs img{
+    width: auto;
+    
+}
+
+.nav {
+    background-image: url('imagens/bg_detalhe.png');
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center; 
+    align-items: center; 
+    padding: 6rem 2rem;     
+    width: 100%;          
+    box-sizing: border-box;
+}
+
+.nav h2 {
+    text-align: start;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 4rem;
+    
+}
+
+.nav p {
+    font-size: 2rem;
+    text-align: start;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+footer{
+    background-color: #162028;
+    padding-top: 0.5rem;
+}
+
+footer p{
+    text-align: center;
+    color: #627e94;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    letter-spacing: 2px;
+}
